@@ -12,10 +12,7 @@ from streamlit_extras.add_vertical_space import add_vertical_space
 from dotenv import load_dotenv
 
 load_dotenv()
-# Get API key 
-OPENAI_API_KEY = st.secrets['OPENAI_API_KEY']
-# Set OpenAI API key
-openai.api_key = OPENAI_API_KEY
+
 
 with st.sidebar:
     st.title('PDF Chat App')
