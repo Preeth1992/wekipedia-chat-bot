@@ -9,9 +9,9 @@ from langchain.prompts.prompt import PromptTemplate
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from streamlit_extras.add_vertical_space import add_vertical_space
-from dotenv import load_dotenv
 
-load_dotenv()
+st.secrets["OPENAI_API_KEY"]
+
 
 
 with st.sidebar:
