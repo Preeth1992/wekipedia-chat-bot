@@ -14,11 +14,7 @@ python-dotenv==1.0.0
 altair==4.1.0
 openai==0.28.1
 tiktoken
-
-
-
-
-
+bs4
 
 
 
