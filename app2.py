@@ -10,8 +10,8 @@ from langchain.chat_models import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from streamlit_extras.add_vertical_space import add_vertical_space
 
-st.secrets["OPENAI_API_KEY"]
 
+openai_api_key =st.secrets['OPENAI_API_KEY']
 
 
 with st.sidebar:
